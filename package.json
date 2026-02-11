@@ -1,5 +1,5 @@
-{
-  "name": "tutor-billing-pwa",
+json{
+  "name": "tutor-billing",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -13,10 +13,35 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^4.2.0",
-    "vite": "^5.0.0",
-    "vite-plugin-pwa": "^0.17.4"
+    "vite": "^5.0.0"
   }
 }
+
+Commit changes
+
+2. Edit index.html:
+
+Click on index.html → pencil icon → delete everything → paste:
+
+html<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#3b82f6" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <title>TutorBill</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+Commit changes
+
+After both edits, Vercel will auto-redeploy. Wait 1-2 minutes and check again. Let me know what happens!IndexCode · HTML DownloadPackageCode · JSON DownloadDownload all
