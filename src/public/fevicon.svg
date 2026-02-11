@@ -1,0 +1,10 @@
+bash
+
+cat /home/claude/tutorbill-clean/public/favicon.svg
+Output
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="20" fill="#3b82f6"/>
+  <text x="50" y="68" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="white" text-anchor="middle">T</text>
+  <circle cx="78" cy="24" r="10" fill="#22c55e"/>
+</svg>
